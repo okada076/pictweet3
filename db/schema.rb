@@ -10,9 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_08_07_055344) do
+ActiveRecord::Schema[7.1].define(version: 2025_08_07_072614) do
   create_table "tweets", charset: "utf8mb3", force: :cascade do |t|
-    t.string "name"
     t.string "text"
     t.string "image"
     t.datetime "created_at", null: false
